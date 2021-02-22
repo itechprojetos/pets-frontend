@@ -1,0 +1,36 @@
+/* EDITOR DE CONTEUDO */
+
+
+.icones-editor img {
+    width: 14px;
+    margin: 0px 7px;
+}
+
+.icones-editor select {
+    width: auto !important;
+    display: inline-flex !important;
+    margin-bottom: 0 !important;
+    border: 1px solid #a8a8a84a !important;
+    line-height: 5px !important;
+    min-height: 5px !important;
+}
+
+.icones-editor {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #a8a8a84a;
+    background: #f3f3f37a;
+    padding: 7px;
+}
+
+.editor-conteudo {
+    margin: 30px 0px;
+}
+
+.content-editor {
+    border: 1px solid #a8a8a885;
+    background: #ffffff;
+    height: 200px;
+    margin: 10px 0px;
+}

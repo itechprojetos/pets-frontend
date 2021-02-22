@@ -1,0 +1,28 @@
+.fb-autocomplete {
+  position: relative;
+  width: 100%;
+
+  &-dropdown {
+    z-index: 100;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ddd;
+    max-height: 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+    -webkit-box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.25);
+
+    &-item {
+      padding: 4px 8px;
+      user-select: none;
+      &:hover {
+        background-color: #ffbd00;
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+}

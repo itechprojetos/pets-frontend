@@ -1,0 +1,16 @@
+.footer-banner {
+  margin-top: 16%;
+  margin-bottom: -14px;
+  &-img {
+    width: 100%;
+    -webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.25);
+  }
+
+  &-pets {
+    width: 80%;
+    position: absolute;
+    top: -151%;
+  }
+}

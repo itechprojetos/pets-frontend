@@ -1,0 +1,172 @@
+.loader-spinner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  padding: 5em 0;
+  font-size: 1.2rem;
+
+  & > span {
+    margin-bottom: 1em;
+  }
+}
+
+.search-page {
+  font-family: 'Lato';
+
+  &-header-title {
+    margin-top: 1.5em;
+    font-size: 1.25rem;
+  
+    font-weight: 600;
+
+    color: rgba(0,0,0,0.78);
+  
+    & > span {
+      color: #ffbd00;
+    }
+  }
+
+  &-header-detail {
+    font-weight: 200;
+  }
+}
+
+.professional-services-cards {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  @media screen and (min-width: 576px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media screen and (min-width: 992px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  grid-gap: 25px;
+  width: 100%;
+}
+
+.professional-card {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.2);
+  position: relative;
+
+  &-picture {
+    width: 100%;
+    height: 12em;
+    object-fit: cover;
+  }
+
+  &-separator {
+    height: .5em;
+    width: 100%;
+    background-color: #ffbd00;
+  }
+
+  &-name {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 1.5em;
+  }
+
+  &-profession {
+    text-align: center;
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+  }
+}
+
+.search-item {
+  width: 100%;
+  border: 1px solid #dcdcdc;
+  padding: 5px;
+  display: flex;
+  // height: 6em;
+
+  margin-top: .6em;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  img {
+    width: 9rem;
+    object-fit: cover;
+  }
+
+  div.details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+    span.details-title {
+      font-size: 1.1rem;
+    }
+
+    span.price-info {
+      font-size: 0.85rem;
+      font-weight: 100;
+      margin-top: -3px;
+    }
+
+    span.price {
+      font-size: 1.6rem;
+      color: #ffbd00;
+      font-weight: 600;
+      margin-top: -5px;
+    }
+
+    div.details-footer {
+      span.professional {
+        margin-top: auto;
+        font-size: 0.9rem;
+        font-weight: 400;
+      }
+
+      a.reviews {
+        margin-left: 2em;
+        font-size: .9rem;
+        text-decoration: underline;
+        color: rgb(60, 60, 60)
+      }
+
+      div.stars {
+        display: inline-block;
+        margin-left: 1em;
+      }
+    }
+  }
+
+  div.action {
+    margin-left: auto;
+    margin-top: auto;
+
+    margin-right: .6em;
+    margin-bottom: .6em;
+
+    button {
+      background-color: #ffbd00;
+      padding: .5em 1.7em;
+      border: none;
+      border-radius: 5px;
+      margin-top: auto;
+      color: white;
+      font-weight: 600;
+    }
+  }
+
+  .store-rate {
+    color: #d2d2d2;
+
+    &-active {
+      color: #ffc800;
+    }
+  }
+}
+
+.professional-card-name, .professional-card-profession {
+  color: black;
+}

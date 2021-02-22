@@ -1,0 +1,36 @@
+div.favorite-heart {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.5rem;
+  margin-right: .5em;
+  margin-top: .25em;
+  &:hover {
+    color: red;
+  }
+  &.active {
+    color: red;
+  }
+  // animation: favorite-heart-appear .3s ease;
+  // animation-fill-mode: forwards;
+  // animation-play-state: running;
+  &:hover {
+    cursor: pointer;
+  }
+
+  &-icon {
+    
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+@keyframes favorite-heart-appear {
+  from {
+    color: rgba(255, 0, 0, 0);
+  }
+  to {
+    color: rgba(255, 0, 0, 1);
+  }
+}

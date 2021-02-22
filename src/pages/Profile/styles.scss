@@ -1,0 +1,69 @@
+.professional-menu {
+  &-item {
+    margin-right: 1.7rem;
+    & > span {
+      margin-left: 0.5rem;
+    }
+    &-active {
+      color: #ffbd00;
+    }
+  }
+}
+
+.profile {
+  font-size: 0.85rem;
+  line-height: 1.6rem;
+  margin-bottom: 25%;
+  
+  &-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    -webkit-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.25);
+
+    &-container {
+      position: relative;
+    }
+
+    &-edit {
+      position: absolute;
+      top: 5%;
+      left: 80%;
+    }
+  }
+
+  &-title {
+    color: #ffbd00;
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-left: 15px;
+  }
+
+  &-subtitle {
+    font-size: 0.85rem;
+    font-weight: 500;
+    font-weight: bold;
+    margin-left: 15px;
+  }
+}
+
+.pet-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  -webkit-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  & > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.profile-photo {
+  object-fit: cover;
+}

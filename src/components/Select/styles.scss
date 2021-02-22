@@ -1,0 +1,42 @@
+.fb-select-options {
+  position: relative;
+  &-button {
+    position: absolute;
+    background-color: transparent;
+    border: 0;
+    left: 0;
+    top: 0;
+    height: 40px;
+    width: 100%;
+    &:focus {
+      outline: none;
+    }
+  }
+  &-arrow {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    right: 14px;
+    top: 36%;
+  }
+  &-options {
+    position: absolute;
+    z-index: 100;
+    background-color: white;
+    width: 100%;
+    border: 1px solid #ddd;
+    -webkit-box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.25);
+  }
+  &-option {
+    cursor: pointer;
+    color: #666;
+    font-size: 0.8rem;
+    padding: 8px;
+    &:hover {
+      background-color:  #ffbd00;
+      color: white;
+    }
+  }
+}

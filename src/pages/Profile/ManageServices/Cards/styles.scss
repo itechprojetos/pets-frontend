@@ -1,0 +1,33 @@
+.deleteButton {
+    cursor: pointer;
+    color: red;
+}
+
+.dataMainDiv {
+    margin-top: 20px;
+}
+
+.editButton {
+    cursor: pointer;
+    color: blue;
+}
+
+.table {
+    width: 700px;
+    @media screen and (max-width: 768px) {
+      width: 100%;       
+    }
+}
+
+.height { 
+    @media screen and (max-width: 668px) {
+       font-size: 14px !important;
+    }
+}
+
+.cardImage {
+    height: 27px;
+    @media screen and (max-width: 848px) {
+        font-size: 20px;
+     }
+}

@@ -1,0 +1,38 @@
+login no sistema
+
+helio.alves@dospets.com
+Vjct1968@
+
+blogger 
+
+blogger@dospets.com
+senha Vjct1968@
+
+fornecedor
+
+fornecedor02@gmail.com
+123456
+
+================================
+GIT MERGE  
+
+git checkout master
+git pull
+git checkout blog
+git merge master
+
+Resolvendo conflitos de merge
+
+Current Change => manter a versão do seu code
+Incoming Change => manter o que esta vindo da master
+Both Changes => seria para manter as duas alteraçoes 
+
+============================================
+
+aws
+
+bucket
+
+/wbctech-files/pets
+
+ajustes

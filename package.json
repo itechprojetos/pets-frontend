@@ -1,0 +1,97 @@
+{
+  "name": "dospets",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^17.0.0",
+    "@ckeditor/ckeditor5-react": "^2.1.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-regular-svg-icons": "^5.12.0",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/react-fontawesome": "^0.1.8",
+    "@material/react-snackbar": "^0.15.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-autocomplete": "^1.8.5",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-input-mask": "^2.0.5",
+    "aws-sdk": "^2.628.0",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "connected-react-router": "^6.6.1",
+    "draft-js": "^0.11.4",
+    "for-editor": "^0.3.5",
+    "history": "^4.10.1",
+    "http-proxy-middleware": "^1.0.1",
+    "md5": "^2.2.1",
+    "node-sass": "^4.13.1",
+    "react": "^16.12.0",
+    "react-autocomplete": "^1.8.1",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "^16.12.0",
+    "react-hook-form": "^5.1.3",
+    "react-icons": "^3.9.0",
+    "react-input-mask": "^2.0.4",
+    "react-loading": "^2.0.3",
+    "react-loading-skeleton": "^2.0.1",
+    "react-markdown": "^4.3.1",
+    "react-redux": "^7.1.3",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-s3": "^1.3.1",
+    "react-scripts": "^3.4.0",
+    "react-select": "^3.0.8",
+    "react-toastify": "^5.5.0",
+    "redux": "^4.0.5",
+    "redux-saga": "^1.1.3",
+    "remask": "^0.1.0-alpha.5",
+    "simple-crypto-js": "^2.2.0",
+    "standard": "^14.3.3",
+    "styled-components": "^5.0.0",
+    "typescript": "~3.7.2",
+    "uuid": "^7.0.1",
+    "vanilla-masker": "^1.2.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@types/md5": "^2.1.33",
+    "@types/react-redux": "^7.1.5",
+    "@types/react-router-dom": "^5.1.3",
+    "@types/react-select": "^3.0.10",
+    "@types/redux-saga": "^0.10.5",
+    "@types/styled-components": "^4.4.2",
+    "@types/uuid": "^7.0.0",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "3.0.2",
+    "husky": "^4.0.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "REACT_APP_API_URL=http://api-wbctech-dev.us-east-1.elasticbeanstalk.com react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://api-wbctech-dev.us-east-1.elasticbeanstalk.com",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

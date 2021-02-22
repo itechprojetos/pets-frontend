@@ -1,0 +1,92 @@
+.button-edit-delete {
+  border: 0;
+  background-color: transparent;
+  &:focus {
+    outline: none;
+  }
+}
+
+.inputDiv {
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .inptPrice {
+    align-self: center;
+    border: 1px solid hsl(0,0%,80%);
+    height: 40px;
+    border-radius: 3px;
+    margin-top: 5px;
+    padding-left: 30px;
+    width: 100%;
+    
+  }
+  .mt-1{
+    align-self: center;    
+  }
+}
+
+.css-1uccc91-singleValue{
+ color: hsl(0,0%,50%) !important;
+}
+
+.pointer {
+  margin-left: 5px !important;
+}
+
+.cardFormDiv {
+  margin-top: 10px;
+}
+
+.spanDescriver {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  align-self: center;
+  margin-left: 15px
+}
+
+.mb-5 {
+ margin-left: 15px;
+}
+
+.inputMaskStyle {
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 1.2rem 0.75rem !important;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.cardBox {
+  display: flex;
+  flex-direction: row;
+}
+
+.userCardInfos{
+    font-weight: bold;
+}
+
+.userCardTags {
+  width: 260px;
+  border-radius: 1px;
+  padding: 10px;
+  background: #dcdcdc;
+  border: 0.95px solid rgb(20, 20, 20);
+}
+
+.userCardData {
+  padding: 10px;
+  background: #edededed;
+  border: 0.95px solid rgb(20, 20, 20);
+  font-size: 14px;
+}

@@ -1,0 +1,31 @@
+.sign-up-content {
+  color: #666;
+  // margin: 40px 0 0 12px;
+
+  &-title {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: black;
+    margin: 40px 0 12px 12px;
+
+    & > span {
+      color: #ffbd00;
+    }
+  }
+  &-type {
+    font-size: 0.9rem;
+    margin: 12px 0 12px 12px;
+  }
+  &-error-message {
+    color: red;
+    font-size: 1rem;
+    margin: 20px 0;
+  }
+
+  .form-control:focus {
+
+    border-color: #ffbd00 !important;
+    box-shadow: 0 0 0 0.2rem #ffbd00 !important;
+
+  }
+}

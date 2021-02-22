@@ -1,0 +1,32 @@
+export interface Donation {
+    name: string
+    gender: string
+    age: string
+    castration: string
+    vaccines: string
+    temper: string
+    vermifuge: string
+    url_image: string
+    created: string
+    updated: string
+    zipcode: string
+    address: string
+    complement: string
+    state: string
+    city: string
+    reference: string
+    document: string
+    status: boolean
+    specie: string
+    breed: string
+    color: string
+    birthday: string
+    weight: string
+    port: string
+    coat: string
+    rules: string
+    obs: string
+    petsTypeId: number
+    customerId: number
+    id: number
+}

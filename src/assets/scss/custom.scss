@@ -1,0 +1,79 @@
+.pointer {
+  cursor: pointer;
+}
+
+.wrapper > .content {
+  background-color: #f8f8f8;
+}
+
+.btn-primary {
+  background-color: #ffbd00 !important;
+  border-color: #ffbd00 !important;
+  font-size: 0.8rem;
+}
+
+.btn-secondary {
+  font-size: 0.8rem;
+}
+
+.btn-link:hover {
+  text-decoration: none;
+}
+
+.navbar-toggler-icon {
+  color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white !important;
+}
+
+.carousel {
+  z-index: 0 !important;
+  background-color: transparent;
+}
+
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.form-control {
+  font-size: 0.8rem !important;
+  padding: 1.2rem 0.75rem !important;
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+input[type='radio'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  &:focus {
+    outline: none;
+  }
+}
+
+input[type='radio']:after {
+  content: '';
+  top: 1px;
+  width: 13px;
+  height: 13px;
+  border-radius: 13px;
+  border: 1px solid #888;
+  position: relative;
+  display: inline-block;
+}
+
+input[type='radio']:checked:after {
+  width: 13px;
+  height: 13px;
+  border-radius: 13px;
+  border: 1px solid #888;
+  position: relative;
+  background-color: #ffa500;
+  content: '';
+  display: inline-block;
+}

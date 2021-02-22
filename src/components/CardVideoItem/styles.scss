@@ -1,0 +1,55 @@
+.container-video-item {
+  width: 31%;
+  min-width: 160px;
+  margin: 12px 0;
+  position: relative;
+  background-color: white;
+  padding: 0;
+  box-shadow: 0 2px 15px rgb(235,235,235);
+  & .image_thumb {
+    position: relative;
+    background-color: black;
+    & > video:focus {
+      outline: none;
+    }
+    & > img {
+      max-width: 100%;
+    }
+    & .icon_play {
+      width: 140px;
+      height: 140px;
+      position: absolute;
+      opacity: 0.45;
+      right: 0;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
+  }
+
+  & > hr {
+    margin: 0;
+    border-top: 5px solid #fab900;
+  }
+  & .container-video-item-body {
+    margin: 4px 8px;
+    color: #333;
+    &-title {
+      font-size: 1.4rem;
+      line-height: 1.4rem;
+    }
+    &-description {
+      margin-top: 8px;
+      font-size: 0.9rem !important;
+      line-height: 1.2rem;
+    }
+    &-tags {
+      margin-top: 8px;
+      font-size: 0.75rem !important;
+    }
+  }
+  & .body-description {
+    font-size: 0.9rem !important;
+  }
+}
